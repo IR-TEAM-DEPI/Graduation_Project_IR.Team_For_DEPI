@@ -298,7 +298,7 @@
         <!-- Image Section -->
         <section class="my-16">
              <div class="max-w-5xl mx-auto glass-card rounded-xl p-4">
-                <img src="http://googleusercontent.com/file_content/0" alt="Digital Egypt Pioneers Initiative" class="rounded-lg w-full h-auto shadow-2xl">
+                <img src="https://sha.edu.eg/upload/news/147097934_391600114_122096677580090715_253793673401357013_n.jpg" alt="Digital Egypt Pioneers Initiative" class="rounded-lg w-full h-auto shadow-2xl" onerror="this.onerror=null;this.src='https://placehold.co/1200x400/0d1117/c9d1d9?text=Image+Not+Found';">
             </div>
         </section>
 
