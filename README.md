@@ -68,50 +68,8 @@ Conduct a comprehensive vulnerability assessment on a system and develop a robus
 
 ## 👥 Meet Our Team  
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" style="padding:20px;">
-        <img src="https://via.placeholder.com/100/4682B4/FFFFFF?text=AA" width="100"/><br>
-        <b>AbdulRhman AbdulGhaffar</b><br>
-        🛡️ Security Lead
-      </td>
-      <td align="center" style="padding:20px;">
-        <img src="https://via.placeholder.com/100/32CD32/FFFFFF?text=YG" width="100"/><br>
-        <b>Yassa Gerges</b><br>
-        👨‍💻 Security Analyst
-      </td>
-      <td align="center" style="padding:20px;">
-        <img src="https://via.placeholder.com/100/4682B4/FFFFFF?text=AL" width="100"/><br>
-        <b>Ahmed Leithy</b><br>
-        🛰️ Infra Engineer
-      </td>
-      <td align="center" style="padding:20px;">
-        <img src="https://via.placeholder.com/100/32CD32/FFFFFF?text=YM" width="100"/><br>
-        <b>Yehia Mahmoud</b><br>
-        📊 Threat Analyst
-      </td>
-    </tr>
-    <tr>
-      <td align="center" style="padding:20px;">
-        <img src="https://via.placeholder.com/100/4682B4/FFFFFF?text=GA" width="100"/><br>
-        <b>George Amir</b><br>
-        👨‍💻 Researcher
-      </td>
-      <td align="center" style="padding:20px;">
-        <img src="https://via.placeholder.com/100/32CD32/FFFFFF?text=FM" width="100"/><br>
-        <b>Fady Magdy</b><br>
-        🔐 Security Engineer
-      </td>
-      <td align="center" style="padding:20px;">
-        <img src="https://via.placeholder.com/100/4682B4/FFFFFF?text=AM" width="100"/><br>
-        <b>Ali Mohamed</b><br>
-        🛠️ IR Specialist
-      </td>
-    </tr>
-  </table>
-</div>
-
+## 👥 Our Team | Avatar 
+| Name | |--------|------| | 🟦 **AA** | AbdulRhman AbdulGhaffar | | 🟩 **YG** | Yassa Gerges | | 🟦 **AL** | Ahmed Leithy | | 🟩 **YM** | Yehia Mahmoud | | 🟦 **GA** | George Amir | | 🟩 **FM** | Fady Magdy | | 🟦 **AM** | Ali Mohamed |
 ---
 
 <p align="center">
