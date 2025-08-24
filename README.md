@@ -86,15 +86,3 @@ Conduct a comprehensive vulnerability assessment on a system and develop a robus
 <p align="center"><b>Digital Egypt Pioneers Initiative - DEPI (Round 3)</b></p>
 
 ---
-
-## 🔎 Comparison with Traditional Format  
-
-| **Traditional Report** | **GitHub README Format** |
-|------------------------|--------------------------|
-| Long text blocks, less visual. | Structured with clear headings and icons. |
-| Weeks described in plain paragraphs. | Weeks organized with headings and bullet points. |
-| No team branding. | Team logo + avatars for each member. |
-| Limited readability. | Interactive, scannable, and professional look. |
-| Image placed without context. | Image centered with caption underneath. |
-
----
