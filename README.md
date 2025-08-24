@@ -77,7 +77,6 @@ Conduct a comprehensive vulnerability assessment on a system and develop a robus
 
 ---
 
-## 📷 Project Showcase
 
 <p align="center">
   <img src="https://i.postimg.cc/05CK0NxW/1447-03-01-19-06-52-c01e9c1f.jpg" alt="Project Details" width="700"/>
