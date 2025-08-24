@@ -18,8 +18,6 @@ Conduct a comprehensive vulnerability assessment on a system and develop a robus
 
 ---
 
-## 📌 Project Roadmap
-
 ## 📅 Project Timeline
 
 ### **Week 1: Vulnerability Assessment Preparation**
