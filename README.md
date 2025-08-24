@@ -6,8 +6,9 @@
   <h1 style="font-size:42px; margin-bottom:10px;">🚀 Digital Egypt Pioneers Initiative - DEPI</h1>
   <h3 style="font-size:22px; color:#00e6e6;">Infrastructure and Security | Incident Response Analysis | 2025</h3>
   <p><B>🔹 Project developed by <b>IR.TEAM</b></B></p>
+   <p><B>🔹 Project Name : <b>IR.TEAM</b></B></p>
 
-  <h2 style="margin-top:20px;">🛡️ Vulnerability Assessment and Remediation Plan 🛡️</h2>
+  <h2 style="margin-top:20px;"> Vulnerability Assessment and Remediation Plan </h2>
 </div>
 
 ---
