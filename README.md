@@ -94,27 +94,16 @@ Conduct a comprehensive vulnerability assessment on a system and develop a robus
 
 ---
 
-## 📂 Project Deliverables (at a glance)
-- Tool Configuration Documentation  
-- Assessment Scope Document  
-- Vulnerability Scan Report  
-- Initial Analysis Document  
-- Prioritization Report  
-- Remediation Plan  
-- Verification Report  
-- Final Remediation Report
-
----
 ## 👥 Our Team
 | Avatar | Name |
 |--------|------|
-| 🟦 **AA** | AbdulRhman AbdulGhaffar |
-| 🟩 **YG** | Yassa Gerges |
-| 🟦 **AL** | Ahmed Leithy |
-| 🟩 **YM** | Yehia Mahmoud |
-| 🟦 **GA** | George Amir |
-| 🟩 **FM** | Fady Magdy |
-| 🟦 **AM** | Ali Mohamed |
+| 🟦 **AA** | AbdulRhman AbdulGhaffar              |
+| 🟩 **YG** | Yassa Gerges                         |
+| 🟦 **AL** | Ahmed Leithy                         |
+| 🟩 **YM** | Yehia Mahmoud                        |
+| 🟦 **GA** | George Amir                          |
+| 🟩 **FM** | Fady Magdy                           |
+| 🟦 **AM** | Ali Mohamed                          |
 ---
 
 <p align="center">
