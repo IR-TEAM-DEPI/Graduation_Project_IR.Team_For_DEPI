@@ -20,49 +20,89 @@ Conduct a comprehensive vulnerability assessment on a system and develop a robus
 
 ## 📌 Project Roadmap
 
-### **Week 1 – Vulnerability Assessment Preparation**
+## 📅 Project Timeline
+
+### **Week 1: Vulnerability Assessment Preparation**
 **Tasks:**
-- ⚙️ Select and configure assessment tools (Nessus, OpenVAS, Qualys).  
-- 📐 Define scope and objectives.  
+1. **Select and Configure Assessment Tools**
+   - Choose tools such as `Nessus`, `OpenVAS`, or `Qualys`.
+   - Configure them according to the environment being assessed.
+2. **Define Scope and Objectives**
+   - Identify which systems, networks, or applications will be assessed.
+   - Set assessment goals.
 
 **Deliverables:**
-- 📄 Tool Configuration Documentation  
-- 📄 Assessment Scope Document  
+- 📄 **Tool Configuration Documentation**
+  - Configuration settings and rationale for chosen tools.
+- 📄 **Assessment Scope Document**
+  - Clear definition of the scope and objectives.
 
 ---
 
-### **Week 2 – Conduct Vulnerability Assessment**
+### **Week 2: Conduct Vulnerability Assessment**
 **Tasks:**
-- 🔍 Perform vulnerability scanning.  
-- 🧾 Analyze scan results and categorize vulnerabilities.  
+1. **Perform Vulnerability Scanning**
+   - Run scans on the defined scope using the selected tools.
+2. **Analyze Scan Results**
+   - Review and categorize vulnerabilities based on severity and impact.
 
 **Deliverables:**
-- 📊 Vulnerability Scan Report  
-- 📝 Initial Analysis Document  
+- 📊 **Vulnerability Scan Report**
+  - Detailed vulnerabilities with severity ratings and descriptions.
+- 📄 **Initial Analysis Document**
+  - Summary of the most critical vulnerabilities and their potential impact.
 
 ---
 
-### **Week 3 – Develop Remediation Plan**
+### **Week 3: Develop Remediation Plan**
 **Tasks:**
-- 🎯 Prioritize vulnerabilities by impact and ease of exploitation.  
-- 🛠️ Create remediation strategies.  
-- 📝 Document remediation plan with responsibilities.  
+1. **Prioritize Vulnerabilities**
+   - Based on impact and ease of exploitation.
+2. **Create Remediation Strategies**
+   - Develop strategies and action items for fixing the vulnerabilities.
+3. **Document Remediation Plan**
+   - Write a detailed plan including timelines and responsible parties.
 
 **Deliverables:**
-- 📄 Prioritization Report  
-- 📄 Remediation Plan  
+- 📌 **Prioritization Report**
+  - Vulnerabilities prioritized by risk and impact.
+- 📄 **Remediation Plan**
+  - Detailed remediation actions with timelines.
 
 ---
 
-### **Week 4 – Implement and Verify Fixes**
+### **Week 4: Implement and Verify Fixes**
 **Tasks:**
-- 🔧 Apply remediation actions.  
-- 🔍 Verify fixes and conduct follow-up scans.  
-- 📝 Prepare final report.  
+1. **Apply Remediation Actions**
+   - Fix vulnerabilities according to the plan.
+2. **Verify Fixes and Conduct Follow-up Scans**
+   - Ensure vulnerabilities are resolved and confirm via rescanning.
+3. **Prepare Final Report**
+   - Document the remediation process and outcomes.
 
 **Deliverables:**
-- ✅ Verification Report  
-- 📘 Final Remediation Report  
+- ✅ **Verification Report**
+  - Confirmation that vulnerabilities were fixed.
+- 📘 **Final Remediation Report**
+  - Comprehensive report including remediation actions and outcomes.
+
+---
+
+## 🚀 Tools & Technologies
+- **Vulnerability Scanners:** Nessus, OpenVAS, Qualys  
+- **Reporting & Documentation:** Markdown, PDF, Excel  
+
+---
+
+## 📂 Project Deliverables (at a glance)
+- Tool Configuration Documentation  
+- Assessment Scope Document  
+- Vulnerability Scan Report  
+- Initial Analysis Document  
+- Prioritization Report  
+- Remediation Plan  
+- Verification Report  
+- Final Remediation Report
 
 ---
 ## 👥 Our Team
