@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.postimg.cc/zB5FtPQT/Chat-GPT-Image-Aug-24-2025-06-35-38-PM.png" alt="IR.Team Logo" width="200"/>
+  <img src="[https://i.postimg.cc/zB5FtPQT/Chat-GPT-Image-Aug-24-2025-06-35-38-PM.png](https://i.postimg.cc/4y0BQw6n/cropped-circle-image.png)" alt="IR.Team Logo" width="200"/>
 </p>
 
 <h1 align="center">🛡️ Vulnerability Assessment and Remediation Plan 🛡️</h1>
