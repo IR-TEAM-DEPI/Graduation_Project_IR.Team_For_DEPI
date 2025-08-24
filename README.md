@@ -96,7 +96,7 @@ Conduct a comprehensive vulnerability assessment on a system and develop a robus
 | Avatar | Name |
 |--------|------|
 | 🟦 **AA** | AbdulRhman AbdulGhaffar              |
-| 🟩 **YG** | Yass Gerges                         |
+| 🟩 **YG** | Yassa Gerges                         |
 | 🟦 **AL** | Ahmed Leithy                         |
 | 🟩 **YM** | Yehia Mahmoud                        |
 | 🟦 **GA** | George Amir                          |
