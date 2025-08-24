@@ -65,11 +65,16 @@ Conduct a comprehensive vulnerability assessment on a system and develop a robus
 - 📘 Final Remediation Report  
 
 ---
-
-## 👥 Meet Our Team  
-
-## 👥 Our Team | Avatar 
-| Name | |--------|------| | 🟦 **AA** | AbdulRhman AbdulGhaffar | | 🟩 **YG** | Yassa Gerges | | 🟦 **AL** | Ahmed Leithy | | 🟩 **YM** | Yehia Mahmoud | | 🟦 **GA** | George Amir | | 🟩 **FM** | Fady Magdy | | 🟦 **AM** | Ali Mohamed |
+## 👥 Our Team
+| Avatar | Name |
+|--------|------|
+| 🟦 **AA** | AbdulRhman AbdulGhaffar |
+| 🟩 **YG** | Yassa Gerges |
+| 🟦 **AL** | Ahmed Leithy |
+| 🟩 **YM** | Yehia Mahmoud |
+| 🟦 **GA** | George Amir |
+| 🟩 **FM** | Fady Magdy |
+| 🟦 **AM** | Ali Mohamed |
 ---
 
 <p align="center">
