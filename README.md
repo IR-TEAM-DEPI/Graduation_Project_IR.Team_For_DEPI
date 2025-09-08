@@ -1,7 +1,7 @@
 <!-- ================= HEADER / BANNER ================= -->
 <div align="center" style="width:100%; padding: 40px; border-radius: 15px; background: linear-gradient(90deg,#0f2027,#203a43,#2c5364); color:white;">
 
-  <img src="https://i.postimg.cc/4y0BQw6n/cropped-circle-image.png" alt="IR.Team Logo" width="160" style="border-radius:50%; box-shadow:0px 0px 15px rgba(0,255,255,0.6);"/>
+  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" alt="IR.Team Logo" width="160" style="border-radius:50%; box-shadow:0px 0px 15px rgba(0,255,255,0.6);"/>
 
   <h1 style="font-size:42px; margin-bottom:10px;">🚀 Digital Egypt Pioneers Initiative - DEPI</h1>
   <h3 style="font-size:22px; color:#00e6e6;">Infrastructure and Security | Incident Response Analysis | 2025</h3>
