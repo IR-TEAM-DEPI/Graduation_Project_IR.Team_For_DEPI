@@ -1,111 +1,93 @@
 <!-- ================= HEADER / BANNER ================= -->
-<div align="center" style="width:100%; padding: 40px; border-radius: 15px; background: linear-gradient(90deg,#0f2027,#203a43,#2c5364); color:white;">
-
-  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" alt="IR.Team Logo" width="160" style="border-radius:50%; box-shadow:0px 0px 15px rgba(0,255,255,0.6);"/>
-
-  <h1 style="font-size:42px; margin-bottom:10px;">🚀 Digital Egypt Pioneers Initiative - DEPI</h1>
-  <h3 style="font-size:22px; color:#00e6e6;">Infrastructure and Security | Incident Response Analysis | 2025</h3>
-  <p><B>🔹 Project developed by <b>IR.TEAM</b></B></p>
-  <p><B>🔹 Project Name : </B></p>
-
-  <h2 style="margin-top:20px;"> Vulnerability Assessment and Remediation Plan </h2>
+<div align="center" style="padding:40px; border-radius:15px; background:linear-gradient(90deg,#0f2027,#203a43,#2c5364); color:white;">
+  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" alt="IR.Team Logo" width="150" style="border-radius:50%; box-shadow:0px 0px 15px rgba(0,255,255,0.6);"/>
+  <h1>🚀 Digital Egypt Pioneers Initiative - DEPI</h1>
+  <h3 style="color:#00e6e6;">Infrastructure & Security | Incident Response | 2025</h3>
+  <p><b>Project by <b>IR.TEAM</b></b></p>
+  <h2>Vulnerability Assessment and Remediation Plan</h2>
 </div>
 
 ---
 
 ## 🎯 Objective
-Conduct a comprehensive vulnerability assessment on a system and develop a robust remediation plan to mitigate identified risks.
+Conduct a comprehensive **vulnerability assessment** on a system and develop a robust **remediation plan** to mitigate identified risks.
 
 ---
 
-## ✍️Project Timeline
-
-### **Week 1: Vulnerability Assessment Preparation**
-**Tasks:**
-1. **Select and Configure Assessment Tools**
-   - Choose tools such as `Nessus`, `OpenVAS`, or `Qualys`.
-   - Configure them according to the environment being assessed.
-2. **Define Scope and Objectives**
-   - Identify which systems, networks, or applications will be assessed.
-   - Set assessment goals.
-
-**Deliverables:**
-- 📄 **Tool Configuration Documentation**
-  - Configuration settings and rationale for chosen tools.
-- 📄 **Assessment Scope Document**
-  - Clear definition of the scope and objectives.
+## 📘 Table of Contents
+- [Week 1 - Preparation & Setup](week-01-preparation/cloud-setup.md)
+- [Week 2 - Assessment Execution](week-02-assessment/scanning-guide.md)
+- [Week 3 - Remediation Planning](week-03-remediation/remediation-plan.md)
+- [Week 4 - Verification & Reporting](week-04-verification/final-report.md)
+- [Tools & Technologies](#tools--technologies)
+- [Team Members](#team-members)
 
 ---
 
-### **Week 2: Conduct Vulnerability Assessment**
-**Tasks:**
-1. **Perform Vulnerability Scanning**
-   - Run scans on the defined scope using the selected tools.
-2. **Analyze Scan Results**
-   - Review and categorize vulnerabilities based on severity and impact.
+## 🧩 Week 1 — Preparation & Setup
+**Tasks**
+- Configure cloud environment (AWS / GCP / Azure)
+- Install **Nessus** vulnerability scanner
+- Create shared workspace for team
+- Deploy **OWASP Juice Shop** as test target
 
-**Deliverables:**
-- 📊 **Vulnerability Scan Report**
-  - Detailed vulnerabilities with severity ratings and descriptions.
-- 📄 **Initial Analysis Document**
-  - Summary of the most critical vulnerabilities and their potential impact.
+📂 [Open Folder →](week-01-preparation/)
 
 ---
 
-### **Week 3: Develop Remediation Plan**
-**Tasks:**
-1. **Prioritize Vulnerabilities**
-   - Based on impact and ease of exploitation.
-2. **Create Remediation Strategies**
-   - Develop strategies and action items for fixing the vulnerabilities.
-3. **Document Remediation Plan**
-   - Write a detailed plan including timelines and responsible parties.
+## 🧩 Week 2 — Assessment Execution
+**Tasks**
+- Run vulnerability scans using configured tools
+- Analyze and categorize results by severity
 
-**Deliverables:**
-- 📌 **Prioritization Report**
-  - Vulnerabilities prioritized by risk and impact.
-- 📄 **Remediation Plan**
-  - Detailed remediation actions with timelines.
+📂 [Open Folder →](week-02-assessment/)
 
 ---
 
-### **Week 4: Implement and Verify Fixes**
-**Tasks:**
-1. **Apply Remediation Actions**
-   - Fix vulnerabilities according to the plan.
-2. **Verify Fixes and Conduct Follow-up Scans**
-   - Ensure vulnerabilities are resolved and confirm via rescanning.
-3. **Prepare Final Report**
-   - Document the remediation process and outcomes.
+## 🧩 Week 3 — Remediation Planning
+**Tasks**
+- Prioritize vulnerabilities
+- Draft and document remediation plan with responsibilities
 
-**Deliverables:**
-- ✅ **Verification Report**
-  - Confirmation that vulnerabilities were fixed.
-- 📘 **Final Remediation Report**
-  - Comprehensive report including remediation actions and outcomes.
+📂 [Open Folder →](week-03-remediation/)
 
 ---
 
-## 🚀 Tools & Technologies
-- **Vulnerability Scanners:** Nessus, OpenVAS, Qualys  
-- **Reporting & Documentation:** Markdown, PDF, Excel  
+## 🧩 Week 4 — Verification & Reporting
+**Tasks**
+- Apply fixes, perform re-scans
+- Validate mitigations and prepare final report
+
+📂 [Open Folder →](week-04-verification/)
 
 ---
 
-## 👥 Our Team
+## ⚙️ Tools & Technologies
+
+| Category | Tools |
+|-----------|-------|
+| Vulnerability Scanners | Nessus, OpenVAS, Qualys |
+| Target Environment | OWASP Juice Shop |
+| Cloud Platform | AWS / Azure / GCP |
+| Documentation | Markdown, PDF, Excel |
+
+---
+
+## 👥 Team Members
+
 | Avatar | Name |
 |--------|------|
-| 🟦 **AA** | AbdulRhman AbdulGhaffar              |
-| 🟩 **YG** | Yassa Gerges                         |
-| 🟦 **AL** | Ahmed Leithy                         |
-| 🟩 **YM** | Yehia Mahmoud                        |
-| 🟦 **GA** | George Amir                          |
-| 🟩 **FM** | Fady Magdy                           |
-| 🟦 **AM** | Ali Mohamed                          |
+| 🟦 **AA** | AbdulRhman AbdulGhaffar |
+| 🟩 **YG** | Yassa Gerges |
+| 🟦 **AL** | Ahmed Leithy |
+| 🟩 **YM** | Yehia Mahmoud |
+| 🟦 **GA** | George Amir |
+| 🟩 **FM** | Fady Magdy |
+| 🟦 **AM** | Ali Mohamed |
+
 ---
 
 <p align="center">
-  <img src="https://i.postimg.cc/05CK0NxW/1447-03-01-19-06-52-c01e9c1f.jpg" alt="Project Details" width="750"/>
+  <img src="https://i.postimg.cc/05CK0NxW/1447-03-01-19-06-52-c01e9c1f.jpg" width="750"/>
 </p>
-
 <p align="center"><b>Digital Egypt Pioneers Initiative - DEPI (Round 3)</b></p>
