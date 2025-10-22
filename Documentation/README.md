@@ -1,38 +1,25 @@
 <!-- =================== HEADER / BANNER =================== -->
-<div align="center" style="width:100%; padding:50px; border-radius:25px; background:linear-gradient(135deg,#000428,#004e92); color:white; box-shadow:0 0 40px rgba(0,200,255,0.6);">
+<div align="center" style="width:100%; padding:40px; border-radius:20px; background:linear-gradient(135deg,#001f3f,#003f5c,#0074D9); color:white; box-shadow:0 0 40px rgba(0,200,255,0.5);">
 
-  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" width="150" style="border-radius:50%; box-shadow:0 0 30px rgba(0,255,255,0.8);" alt="IR.Team Logo"/>
+  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" width="150" style="border-radius:50%; box-shadow:0 0 25px rgba(0,255,255,0.6);" alt="IR.Team Logo"/>
 
-  <h1 style="font-size:48px; margin-bottom:10px;">🚀 Digital Egypt Pioneers Initiative (DEPI)</h1>
-  <h3 style="color:#00FFFF; font-weight:600;">Infrastructure & Cybersecurity | Incident Response | 2025</h3>
+  <h1 style="font-size:45px; margin-bottom:5px;">🚀 Digital Egypt Pioneers Initiative (DEPI)</h1>
+  <h3 style="color:#00FFFF;">Infrastructure & Cybersecurity | Incident Response | 2025</h3>
 
   <p><b>🔹 Developed by <span style="color:#00E6E6;">IR.Team</span></b></p>
 
-  <h2 style="margin-top:25px; color:#fff;">🛡️ Vulnerability Assessment & Remediation Plan</h2>
+  <h2 style="margin-top:20px;">🛡️ Vulnerability Assessment & Remediation Plan</h2>
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github"/>
-    <img src="https://img.shields.io/badge/Automation-Enabled-orange?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Language-Markdown-blue?style=for-the-badge"/>
-  </p>
+  <img src="https://img.shields.io/badge/Language-Markdown-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Tools-Nessus%20%7C%20OWASP%20Juice%20Shop-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
 </div>
 
 ---
 
 <div align="center">
-  <h3>✨ <i>"Securing Systems, One Vulnerability at a Time."</i> ✨</h3>
+  ✨ <b><i>"Securing Systems, One Vulnerability at a Time"</i></b> ✨
 </div>
-
----
-
-## 🧭 Project Progress
-
-| Phase | Status | Progress |
-|:------|:-------|:----------|
-| 🔹 Week 1 – Preparation | ✅ Completed | ██████████ 100% |
-| 🔹 Week 2 – Assessment | ✅ Completed | ██████████ 100% |
-| 🔹 Week 3 – Remediation | 🔄 In Progress | ███████░░░ 70% |
-| 🔹 Week 4 – Verification | ⏳ Pending | ███░░░░░░░ 30% |
 
 ---
 
@@ -44,8 +31,6 @@
 - [🧱 Week 3 - Remediation Plan](#-week-3--remediation-plan)
 - [🧪 Week 4 - Verification](#-week-4--verification)
 - [🧰 Tools & Technologies](#-tools--technologies)
-- [🤖 Automation Scripts](#-automation-scripts)
-- [📊 Results Summary](#-results-summary)
 - [👥 Our Team](#-our-team)
 - [📸 Gallery & References](#-gallery--references)
 
@@ -53,10 +38,10 @@
 
 ## 🎯 Objective
 
-Perform a **comprehensive vulnerability assessment** on a simulated target environment,  
-and create a **strategic remediation plan** to mitigate all identified risks.  
+Conduct a **comprehensive vulnerability assessment** on a target system and develop a **structured remediation plan** to mitigate all identified risks.  
+The project simulates a **real-world security operation**, focusing on cloud setup, vulnerability scanning, risk prioritization, and remediation verification.
 
-> 🧠 *Focus:* Cloud Infrastructure • Vulnerability Scanning • Threat Analysis • Automated Remediation Verification
+> 🧠 *Primary Focus:* Cloud Environment • Vulnerability Management • Threat Analysis • Remediation Strategies
 
 ---
 
@@ -64,118 +49,156 @@ and create a **strategic remediation plan** to mitigate all identified risks.
 
 | 🗓️ Week | 📌 Title | 🧠 Description | 📄 Deliverables | 🔗 Folder |
 |:------:|:----------|:---------------|:----------------|:-----------|
-| 1️⃣ | **Preparation & Environment Setup** | Configure tools, VMs, and define scope | Tool Config / Scope Docs | [📁 Week 01](./Week_01_Preparation) |
-| 2️⃣ | **Vulnerability Assessment** | Conduct scans and analyze results | Scan Report / Analysis | [📁 Week 02](./Week_02_Assessment) |
-| 3️⃣ | **Remediation Plan Development** | Prioritize vulnerabilities & mitigation steps | Remediation Plan / Prioritization | [📁 Week 03](./Week_03_Remediation) |
-| 4️⃣ | **Verification & Reporting** | Verify fixes and finalize documentation | Verification Report / Final Report | [📁 Week 04](./Week_04_Verification) |
+| 1️⃣ | **Preparation & Environment Setup** | Configure tools and define scope | Tool Config / Scope Docs | [📁 Open Week 1 Folder](./Week_01_Preparation) |
+| 2️⃣ | **Vulnerability Assessment** | Conduct scans and analyze results | Scan Report / Analysis | [📁 Open Week 2 Folder](./Week_02_Assessment) |
+| 3️⃣ | **Remediation Plan Development** | Prioritize and plan mitigation | Remediation Plan / Prioritization | [📁 Open Week 3 Folder](./Week_03_Remediation) |
+| 4️⃣ | **Verification & Reporting** | Apply fixes and confirm security | Verification Report / Final Report | [📁 Open Week 4 Folder](./Week_04_Verification) |
 
 ---
 
 ## 🧭 Week 1 — Preparation
 
 ### 🎯 Objectives
-- Deploy **cloud virtual machines (VMs)**.  
+- Deploy cloud virtual machines (VMs).  
 - Install and configure **Nessus Scanner**.  
-- Register and activate **Nessus Free Edition**.  
-- Setup **OWASP Juice Shop** as the target environment.  
-- Create shared workspace for team collaboration.
+- Register and activate Nessus Free Edition.  
+- Set up **OWASP Juice Shop** as the target system.  
+- Create a shared team workspace for collaboration.
 
 ### ⚙️ Tasks
-1. Cloud environment setup (AWS / Azure).  
-2. Nessus installation & activation.  
-3. Target deployment (OWASP Juice Shop).  
-4. Document network scope and configurations.  
+1. Create cloud environment (AWS / Azure).  
+2. Install Nessus, configure network access.  
+3. Verify scanner connectivity to target.  
+4. Document configuration parameters.  
 
 ### 📄 Deliverables
-- Tool Configuration Document  
-- Scope Definition Document  
-- Setup Evidence (Screenshots, Logs)
+- Tool Configuration Documentation  
+- Assessment Scope Document  
+- Screenshots of setup and activation  
 
-🗂️ Folder → [📁 Week 01 Preparation](./Week_01_Preparation)
+🗂️ Folder → [📁 Week_01_Preparation](./Week_01_Preparation)
 
 ---
 
 ## 🧩 Week 2 — Vulnerability Assessment
 
 ### 🎯 Objectives
-Run automated scans and analyze discovered vulnerabilities.
+Perform detailed scanning using Nessus, identify and classify all vulnerabilities within the scope.
 
 ### ⚙️ Tasks
-1. Execute **Nessus** scans on OWASP target.  
-2. Analyze critical vulnerabilities.  
-3. Categorize results based on **CVSSv3.1**.  
-4. Prepare the **Initial Findings Report**.
+1. Execute scans against `OWASP Juice Shop`.  
+2. Export and analyze scan results.  
+3. Classify vulnerabilities based on CVSS v3.  
+4. Identify potential exploitation vectors.  
 
 ### 📄 Deliverables
 - 📊 Vulnerability Scan Report  
-- 🧾 Analysis Documentation  
+- 🧾 Initial Analysis Document  
 
-🗂️ Folder → [📁 Week 02 Assessment](./Week_02_Assessment)
+🗂️ Folder → [📁 Week_02_Assessment](./Week_02_Assessment)
 
 ---
 
 ## 🧱 Week 3 — Remediation Plan
 
 ### 🎯 Objectives
-Develop and implement a remediation plan for identified vulnerabilities.
+Formulate a remediation strategy to eliminate or mitigate vulnerabilities, focusing on high-impact risks.
 
 ### ⚙️ Tasks
-1. Prioritize vulnerabilities by risk level.  
-2. Recommend patches and mitigations.  
-3. Develop a remediation timeline.  
+1. Categorize vulnerabilities by severity.  
+2. Recommend patches and configuration fixes.  
+3. Develop a structured remediation roadmap.  
 
 ### 📄 Deliverables
 - 📌 Prioritization Report  
-- 🧩 Remediation Plan Document  
+- 🧩 Remediation Plan  
 
-🗂️ Folder → [📁 Week 03 Remediation](./Week_03_Remediation)
+🗂️ Folder → [📁 Week_03_Remediation](./Week_03_Remediation)
 
 ---
 
 ## 🧪 Week 4 — Verification & Final Reporting
 
 ### 🎯 Objectives
-Confirm remediation effectiveness and finalize reporting.
+Reassess the system after fixes, confirm closure of vulnerabilities, and finalize documentation.
 
 ### ⚙️ Tasks
-1. Conduct re-scans to verify fixes.  
-2. Validate mitigations applied.  
-3. Document post-remediation results.  
-4. Prepare **Final Presentation Report**.
+1. Apply all remediation actions.  
+2. Perform follow-up scans.  
+3. Validate fixes and update documentation.  
+4. Compile the final project report.  
 
 ### 📄 Deliverables
 - ✅ Verification Report  
-- 📘 Final Report  
+- 📘 Final Comprehensive Report  
 
-🗂️ Folder → [📁 Week 04 Verification](./Week_04_Verification)
+🗂️ Folder → [📁 Week_04_Verification](./Week_04_Verification)
 
 ---
 
 ## 🧰 Tools & Technologies
 
-| 🧩 Tool | 🔧 Purpose | 🌐 Link |
-|:------|:-----------|:--------|
-| **Nessus** | Vulnerability Scanning Tool | [Tenable Nessus](https://www.tenable.com/products/nessus) |
-| **OWASP Juice Shop** | Vulnerable Web App (Testing Target) | [OWASP Project](https://owasp.org/www-project-juice-shop/) |
-| **Cloud VM (Azure/AWS)** | Virtual Lab Deployment | [Azure Portal](https://portal.azure.com) |
-| **Markdown & PDF Docs** | Reporting / Documentation | Internal Reports |
-| **Automation Scripts** | Task Scheduling & Reporting | [Scripts Folder](./Scripts) |
+| Tool | Function | Link |
+|:------|:----------|:------|
+| 🧩 **Nessus** | Vulnerability Scanning | [Tenable Nessus](https://www.tenable.com/products/nessus) |
+| ⚙️ **OWASP Juice Shop** | Vulnerable Target Web App | [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) |
+| ☁️ **Cloud VMs** | Lab Environment | [AWS Cloud](https://aws.amazon.com/) / [Azure](https://portal.azure.com) |
+| 📄 **Markdown + PDF** | Documentation & Reports | [Documentation Folder](./Documentation) |
 
 ---
 
-## 🤖 Automation Scripts
+## 👥 Our Team
 
-> 📂 Folder: [Scripts Directory](./Scripts)
+| Avatar | Name | Role |
+|:--------|:------|:------|
+| 🟦 **AA** | AbdulRhman AbdulGhaffar | 🧠 Team Leader / Incident Response |
+| 🟩 **YG** | Yassa Gerges | Security Analyst |
+| 🟦 **AL** | Ahmed Leithy | Vulnerability Engineer |
+| 🟩 **YM** | Yehia Mahmoud | Network Specialist |
+| 🟦 **GA** | George Amir | Incident Response Analyst |
+| 🟩 **FM** | Fady Magdy | Documentation Expert |
+| 🟦 **AM** | Ali Mohamed | Cloud Administrator |
 
-| Script | Description |
-|:--------|:-------------|
-| 🧠 `auto_scan.sh` | Automates vulnerability scans on target systems |
-| ⚙️ `verify_fix.ps1` | Rechecks vulnerabilities after remediation |
-| 📊 `report_export.py` | Converts scan outputs into visual reports |
+---
 
-```bash
-#!/bin/bash
-echo "🚀 Launching Automated Nessus Scan..."
-nessuscli scan --target "OWASP_JuiceShop" --policy "Standard"
-echo "✅ Scan complete. Reports saved to ./Reports"
+## 📸 Gallery & References
 
+<div align="center">
+
+### 🧭 Project Architecture Overview  
+<img src="https://i.postimg.cc/0Q9hQqk1/diagram-example.png" width="800" alt="System Architecture" style="border-radius:15px; box-shadow:0 0 15px rgba(0,200,255,0.5);"/>
+
+---
+
+### 📊 Sample Project Snapshots  
+
+<table align="center">
+<tr>
+<td align="center"><img src="https://i.postimg.cc/8cTx8H8y/nessus-dashboard.jpg" width="300" alt="Nessus Scan"/></td>
+<td align="center"><img src="https://i.postimg.cc/Y2QpRjxk/owasp-juice-shop.png" width="300" alt="Juice Shop"/></td>
+<td align="center"><img src="https://i.postimg.cc/MG4v7GYR/cloud-vm-setup.png" width="300" alt="Cloud Setup"/></td>
+</tr>
+<tr>
+<td><b>Nessus Dashboard</b></td>
+<td><b>OWASP Juice Shop</b></td>
+<td><b>Cloud Environment</b></td>
+</tr>
+</table>
+
+---
+
+<img src="https://i.postimg.cc/05CK0NxW/1447-03-01-19-06-52-c01e9c1f.jpg" width="750" alt="Team Banner" style="border-radius:12px; box-shadow:0 0 15px rgba(0,200,255,0.6);"/>
+
+</div>
+
+> 🔐 *Digital Egypt Pioneers Initiative (DEPI) – 2025 | IR.Team Vulnerability Assessment Documentation*
+
+---
+
+<div align="center">
+
+⭐ **Developed by IR.Team – Digital Egypt Pioneers Initiative (DEPI)**  
+🛠️ *Infrastructure & Security | Incident Response Analysis*  
+🌐 [GitHub Organization](https://github.com/IR-TEAM-DEPI)
+
+</div>
