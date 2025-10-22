@@ -1,64 +1,99 @@
-<!-- ================= HEADER / BANNER ================= -->
-<div align="center" style="padding:40px; border-radius:15px; background:linear-gradient(90deg,#0f2027,#203a43,#2c5364); color:white;">
-  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" alt="IR.Team Logo" width="150" style="border-radius:50%; box-shadow:0px 0px 15px rgba(0,255,255,0.6);"/>
-  <h1>🚀 Digital Egypt Pioneers Initiative - DEPI</h1>
-  <h3 style="color:#00e6e6;">Infrastructure & Security | Incident Response | 2025</h3>
-  <p><b>Project by <b>IR.TEAM</b></b></p>
-  <h2>Vulnerability Assessment and Remediation Plan</h2>
+<!-- ==================== 🚀 HERO / HEADER ==================== -->
+<div align="center" style="padding:60px; border-radius:25px; background:linear-gradient(135deg,#001f3f,#004d7a,#007b8a,#00b4db); color:white; box-shadow:0 0 40px rgba(0,255,255,0.4);">
+  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" width="160" style="border-radius:50%; box-shadow:0 0 25px cyan; margin-bottom:20px;"/>
+  <h1 style="font-size:46px; margin:0;">🛡️ Vulnerability Assessment & Remediation Project</h1>
+  <h3 style="font-size:20px; color:#00ffff; margin:10px 0;">Infrastructure & Security | Incident Response | Digital Egypt Pioneers - 2025</h3>
+  <p style="font-size:17px;">Crafted by <b>IR.TEAM</b> — Where Cybersecurity Meets Perfection</p>
 </div>
 
 ---
 
-## 🎯 Objective
-Conduct a comprehensive **vulnerability assessment** on a system and develop a robust **remediation plan** to mitigate identified risks.
+## 🧭 Overview
+
+This repository represents a **full-cycle Vulnerability Assessment and Remediation Plan** project developed under the  
+**Digital Egypt Pioneers Initiative (DEPI - Round 3)**.  
+
+It simulates an enterprise-level security audit covering:
+> **Planning → Scanning → Analysis → Remediation → Verification**
 
 ---
 
 ## 📘 Table of Contents
-- [Week 1 - Preparation & Setup](week-01-preparation/cloud-setup.md)
-- [Week 2 - Assessment Execution](week-02-assessment/scanning-guide.md)
-- [Week 3 - Remediation Planning](week-03-remediation/remediation-plan.md)
-- [Week 4 - Verification & Reporting](week-04-verification/final-report.md)
-- [Tools & Technologies](#tools--technologies)
-- [Team Members](#team-members)
+
+| 🔹 Section | 📁 Folder | 🔗 Link |
+|------------|-----------|--------|
+| 🧩 Week 1 – Preparation & Setup | `01-Preparation-and-Setup` | [Open Folder →](01-Preparation-and-Setup/) |
+| 🔍 Week 2 – Vulnerability Assessment | `02-Vulnerability-Assessment` | [Open Folder →](02-Vulnerability-Assessment/) |
+| 🛠️ Week 3 – Remediation Plan | `03-Remediation-Plan` | [Open Folder →](03-Remediation-Plan/) |
+| ✅ Week 4 – Verification & Reporting | `04-Verification-and-Reporting` | [Open Folder →](04-Verification-and-Reporting/) |
 
 ---
 
-## 🧩 Week 1 — Preparation & Setup
-**Tasks**
-- Configure cloud environment (AWS / GCP / Azure)
-- Install **Nessus** vulnerability scanner
-- Create shared workspace for team
-- Deploy **OWASP Juice Shop** as test target
+## 🎯 Objective
 
-📂 [Open Folder →](week-01-preparation/)
+To perform a **comprehensive vulnerability assessment** on a simulated target environment,  
+identify weaknesses, analyze risks, and design a detailed **remediation plan** to enhance overall security posture.
 
 ---
 
-## 🧩 Week 2 — Assessment Execution
-**Tasks**
-- Run vulnerability scans using configured tools
-- Analyze and categorize results by severity
+## 🧩 Week 1 – Preparation & Setup
+📂 **Folder:** [`01-Preparation-and-Setup`](01-Preparation-and-Setup)
 
-📂 [Open Folder →](week-02-assessment/)
+**Tasks**
+- Configure the cloud environment (AWS / Azure / GCP)  
+- Install **Nessus**  
+- Create shared collaboration folder  
+- Deploy **OWASP Juice Shop** target  
+
+**Deliverables**
+- `Cloud-Setup.md`
+- `Nessus-Installation.md`
+- `Shared-Folder-Setup.md`
+- `OWASP-Juice-Shop-Deployment.md`
 
 ---
 
-## 🧩 Week 3 — Remediation Planning
-**Tasks**
-- Prioritize vulnerabilities
-- Draft and document remediation plan with responsibilities
+## 🔍 Week 2 – Vulnerability Assessment
+📂 **Folder:** [`02-Vulnerability-Assessment`](02-Vulnerability-Assessment)
 
-📂 [Open Folder →](week-03-remediation/)
+**Tasks**
+- Execute scans using Nessus  
+- Categorize vulnerabilities  
+- Build risk matrix and severity reports  
+
+**Deliverables**
+- `Scan-Execution.md`
+- `Findings-Report.md`
+- `Risk-Analysis.md`
 
 ---
 
-## 🧩 Week 4 — Verification & Reporting
-**Tasks**
-- Apply fixes, perform re-scans
-- Validate mitigations and prepare final report
+## 🛠️ Week 3 – Remediation Plan
+📂 **Folder:** [`03-Remediation-Plan`](03-Remediation-Plan)
 
-📂 [Open Folder →](week-04-verification/)
+**Tasks**
+- Prioritize vulnerabilities based on severity and impact  
+- Develop mitigation and patching strategies  
+- Document responsible team and timeline  
+
+**Deliverables**
+- `Prioritization-Matrix.md`
+- `Fixing-Strategy.md`
+- `Remediation-Implementation.md`
+
+---
+
+## ✅ Week 4 – Verification & Reporting
+📂 **Folder:** [`04-Verification-and-Reporting`](04-Verification-and-Reporting)
+
+**Tasks**
+- Apply fixes  
+- Re-scan the target  
+- Generate verification and final audit report  
+
+**Deliverables**
+- `Re-Scan-and-Verification.md`
+- `Final-Remediation-Report.md`
 
 ---
 
@@ -66,28 +101,59 @@ Conduct a comprehensive **vulnerability assessment** on a system and develop a r
 
 | Category | Tools |
 |-----------|-------|
-| Vulnerability Scanners | Nessus, OpenVAS, Qualys |
-| Target Environment | OWASP Juice Shop |
-| Cloud Platform | AWS / Azure / GCP |
-| Documentation | Markdown, PDF, Excel |
+| **Vulnerability Scanners** | Nessus, OpenVAS, Qualys |
+| **Cloud Providers** | AWS / Azure / GCP |
+| **Target Application** | OWASP Juice Shop |
+| **Documentation** | Markdown, Excel, PDF |
+| **Collaboration** | GitHub, Google Drive |
+
+---
+
+## 💼 Deliverables Summary
+
+| Week | Focus | Outputs |
+|------|--------|----------|
+| **1** | Preparation | Environment setup, tool configuration |
+| **2** | Assessment | Vulnerability scan reports |
+| **3** | Remediation | Fix plan & prioritization |
+| **4** | Verification | Final report & closure summary |
 
 ---
 
 ## 👥 Team Members
 
-| Avatar | Name |
-|--------|------|
-| 🟦 **AA** | AbdulRhman AbdulGhaffar |
-| 🟩 **YG** | Yassa Gerges |
-| 🟦 **AL** | Ahmed Leithy |
-| 🟩 **YM** | Yehia Mahmoud |
-| 🟦 **GA** | George Amir |
-| 🟩 **FM** | Fady Magdy |
-| 🟦 **AM** | Ali Mohamed |
+| Avatar | Name | Role |
+|--------|------|------|
+| 🟦 **AA** | AbdulRhman AbdulGhaffar | Project Lead / Security Engineer |
+| 🟩 **YG** | Yassa Gerges | Infrastructure Engineer |
+| 🟦 **AL** | Ahmed Leithy | Security Analyst |
+| 🟩 **YM** | Yehia Mahmoud | QA & Documentation |
+| 🟦 **GA** | George Amir | DevOps Specialist |
+| 🟩 **FM** | Fady Magdy | Incident Response |
+| 🟦 **AM** | Ali Mohamed | Vulnerability Analyst |
 
 ---
 
-<p align="center">
-  <img src="https://i.postimg.cc/05CK0NxW/1447-03-01-19-06-52-c01e9c1f.jpg" width="750"/>
-</p>
-<p align="center"><b>Digital Egypt Pioneers Initiative - DEPI (Round 3)</b></p>
+## 📸 Gallery
+
+<div align="center">
+  <img src="https://i.postimg.cc/05CK0NxW/1447-03-01-19-06-52-c01e9c1f.jpg" width="700" style="border-radius:15px; box-shadow:0 0 30px rgba(0,255,255,0.3);"/>
+  <p><i>Example of OWASP Juice Shop Deployment & Nessus Scan Dashboard</i></p>
+</div>
+
+---
+
+## 🧠 Key Insights
+✅ Enterprise-style vulnerability workflow  
+✅ Comprehensive documentation & screenshots  
+✅ OWASP-aligned risk scoring  
+✅ Professional Markdown structure  
+✅ Ready-to-show in presentations or GitHub portfolio  
+
+---
+
+<div align="center" style="margin-top:40px;">
+  <h3>🔥 Developed with Passion by IR.TEAM 🔥</h3>
+  <p>Digital Egypt Pioneers Initiative - DEPI (Round 3)</p>
+  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" width="100" style="margin-top:10px;"/>
+</div>
