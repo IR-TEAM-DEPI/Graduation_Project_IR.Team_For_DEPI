@@ -66,7 +66,8 @@ During this stage, we:
 ```mermaid
 graph TD
 A[☁️ Week 2 - Assessment] --> B[📘 Scan_Configs]
-A --> C[📊 Reports]
-A --> D[🧾 Analysis]
-A --> E[📂 Screenshots]
-A --> F[📝 Notes]
+A [📊 Reports]
+A [🧾 Analysis]
+A [📂 Screenshots]
+A [📝 Notes]
+A --> B --> C --> D --> E --> F
