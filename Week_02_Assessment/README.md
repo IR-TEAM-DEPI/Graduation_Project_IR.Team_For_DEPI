@@ -1,50 +1,63 @@
-<!-- =================== WEEK 2 | VULNERABILITY ASSESSMENT =================== -->
-<div align="center" style="width:100%; padding:55px; border-radius:25px; background:linear-gradient(135deg,#000428,#004e92,#0074D9); color:white; box-shadow:0 0 45px rgba(0,200,255,0.8);">
+<!-- =================== WEEK 2 | ADVANCED VULNERABILITY ASSESSMENT =================== -->
+<div align="center" style="width:100%; padding:60px; border-radius:25px; background:linear-gradient(135deg,#000428,#004e92,#00b4db); color:white; box-shadow:0 0 70px rgba(0,200,255,0.8);">
 
-  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" width="140" style="border-radius:50%; box-shadow:0 0 25px rgba(0,255,255,0.9);" alt="IR.Team Logo"/>
+  <img src="https://i.postimg.cc/mk3syMbn/cropped-circle-image-1-optimized-1000.png" width="160" style="border-radius:50%; box-shadow:0 0 40px rgba(0,255,255,0.9);" alt="IR.Team Logo"/>
 
-  <h1 style="font-size:44px;">🔍 Week 2 – Vulnerability Assessment</h1>
-  <h3 style="color:#00FFFF;">Nessus | OWASP Juice Shop | CVSS | Reporting | 2025</h3>
-  <p><b>🔹 Digital Egypt Pioneers Initiative (DEPI) – IR.Team Project</b></p>
+  <h1 style="font-size:48px; margin-bottom:10px;">🔍 Week 2 – Advanced Vulnerability Assessment</h1>
+  <h3 style="color:#00FFFF;">Nessus | CVSS | OWASP Juice Shop | Risk Analytics | GCP</h3>
+
+  <p><b>🚀 Digital Egypt Pioneers Initiative (DEPI) – IR.Team Project</b></p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Phase-Assessment-blue?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Tool-Nessus%20%7C%20GCP-brightgreen?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Focus-Risk%20Analysis%20%26%20Reporting-orange?style=for-the-badge"/>
+  </p>
 </div>
 
 ---
 
 <div align="center">
-  <h3>✨ <i>"We don’t guess vulnerabilities — we measure and prove them."</i> ✨</h3>
+  <h3>✨ <i>"You can’t protect what you don’t understand — so we scan, measure, and analyze."</i> ✨</h3>
 </div>
 
 ---
 
 ## 🧭 Overview
 
-This folder represents **Week 2** of the project:  
-> The **Vulnerability Assessment Phase**, where we perform full-scale scanning using **Nessus** against our target web application (**OWASP Juice Shop**) deployed on **Google Cloud**.
+This folder documents **Week 2** of the project,  
+the **core assessment phase** where the IR.Team performs a **full vulnerability assessment** on the target **OWASP Juice Shop** environment hosted on **Google Cloud** using **Tenable Nessus**.
 
-Here, we move from setup to **real-world security analysis** — identifying, classifying, and documenting vulnerabilities that form the basis of our remediation plan in Week 3.
+During this stage, we:
+- Conduct in-depth **automated vulnerability scanning**  
+- Perform **manual validation** on critical findings  
+- Evaluate the **risk exposure** using **CVSS v3.1** metrics  
+- Generate structured and executive-level **security reports**
+
+> 🧠 The purpose is to translate *raw scan data* into *actionable intelligence.*
 
 ---
 
 ## 🎯 Objectives
 
-| 🎯 Goal | Description |
-|:---------|:-------------|
-| 🧩 **Run Vulnerability Scans** | Perform automated and manual scans using Nessus |
-| 📊 **Analyze Findings** | Sort and classify vulnerabilities by CVSS |
-| 🧠 **Risk Evaluation** | Assess critical impact and exploitation likelihood |
-| 🧾 **Documentation** | Produce both technical and executive-level reports |
+| Objective | Description |
+|:-----------|:-------------|
+| 🔍 **Execute Vulnerability Scans** | Perform authenticated and unauthenticated Nessus scans on OWASP Juice Shop |
+| 🧩 **Analyze & Classify Results** | Categorize vulnerabilities using CVSS scoring system |
+| 📊 **Evaluate Impact** | Identify which vulnerabilities pose the highest risk |
+| 📑 **Generate Professional Reports** | Create analytical and visual summaries for stakeholders |
 
 ---
 
-## ⚙️ Folder Structure
+## ⚙️ Folder Architecture
 
 | Folder | Description |
 |:--------|:-------------|
-| 📘 **Scan_Configs/** | Exported Nessus policies and templates |
-| 📊 **Reports/** | Raw and formatted vulnerability scan results |
-| 🧾 **Analysis/** | Processed summaries, tables, and insights |
-| 🖼️ **Screenshots/** | Evidence of scanning and report generation |
-| 🧠 **Notes/** | Analyst logs and observations |
+| 📘 **Scan_Configs/** | Contains Nessus scan templates and exported policies |
+| 📊 **Reports/** | Holds raw Nessus exports (CSV, HTML, .nessus) |
+| 🧾 **Analysis/** | Contains vulnerability breakdowns, charts, and summaries |
+| 🖼️ **Screenshots/** | Visual proofs of scan execution and results |
+| 🧠 **Notes/** | Analyst observations, anomalies, and collaboration notes |
 
 ---
 
@@ -52,8 +65,8 @@ Here, we move from setup to **real-world security analysis** — identifying, cl
 
 ```mermaid
 graph TD
-A[ GCP Target (OWASP Juice Shop) ] --> B[ Nessus Scanner on GCP ]
-B --> C[ Automated Vulnerability Scan ]
-C --> D[ Export Reports (.nessus / .csv / .html) ]
-D --> E[ Risk Categorization & Analysis ]
-E --> F[ Week 2 Vulnerability Assessment Report ]
+A[☁️ GCP Target (Juice Shop)] --> B[🧠 Nessus Scanner on GCP]
+B --> C[🔍 Automated Vulnerability Scan]
+C --> D[📊 Export Reports (.nessus, .csv, .html)]
+D --> E[🧩 Risk Categorization & Analysis]
+E --> F[📑 Week 2 Vulnerability Assessment Report]
