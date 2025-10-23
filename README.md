@@ -195,66 +195,54 @@ Reassess system post-remediation and confirm security status.
 
 ## 📸 Gallery & References
 
-> 🧠 *This gallery includes key screenshots and visual references from the vulnerability assessment project: environment setup, OWASP Juice Shop target, and Nessus/OpenVAS scans.*
+> 🧠 *Key screenshots and visual highlights from the project: vulnerability scanning, OWASP Juice Shop setup, and GCP environment configuration.*
 
 ---
 
-<div align="center" style="width:100%; margin-top:10px;">
+<p align="center">
+  <a href="../Documentation/Images/nessus_scan.png" target="_blank">
+    <img src="../Documentation/Images/nessus_scan.png" width="260" alt="Nessus Dashboard"/>
+  </a>
+  <br/>
+  <b>Nessus Dashboard</b><br/>
+  <sub>Automated Vulnerability Scanning Results</sub>
+</p>
 
-  <table style="border-collapse: collapse; width:100%;">
-    <tr>
-      <td align="center" style="padding:15px;">
-        <a href="../Documentation/Images/nessus_scan.png" target="_blank">
-          <img src="../Documentation/Images/nessus_scan.png" alt="Nessus Scan" width="260" style="border-radius:12px; box-shadow:0 0 15px rgba(0,255,255,0.4);"/>
-        </a>
-        <br/>
-        <b>Nessus Dashboard</b>
-        <br/>
-        <sub>Automated Vulnerability Scanning Results</sub>
-      </td>
+<p align="center">
+  <a href="../Documentation/Images/juice_shop.png" target="_blank">
+    <img src="../Documentation/Images/juice_shop.png" width="260" alt="OWASP Juice Shop"/>
+  </a>
+  <br/>
+  <b>OWASP Juice Shop</b><br/>
+  <sub>Target Application for Testing</sub>
+</p>
 
-      <td align="center" style="padding:15px;">
-        <a href="../Documentation/Images/juice_shop.png" target="_blank">
-          <img src="../Documentation/Images/juice_shop.png" alt="Juice Shop" width="260" style="border-radius:12px; box-shadow:0 0 15px rgba(0,255,255,0.4);"/>
-        </a>
-        <br/>
-        <b>OWASP Juice Shop</b>
-        <br/>
-        <sub>Target Web Application for Vulnerability Testing</sub>
-      </td>
-
-      <td align="center" style="padding:15px;">
-        <a href="../Documentation/Images/cloud_setup.png" target="_blank">
-          <img src="../Documentation/Images/cloud_setup.png" alt="Cloud Setup" width="260" style="border-radius:12px; box-shadow:0 0 15px rgba(0,255,255,0.4);"/>
-        </a>
-        <br/>
-        <b>Cloud Environment</b>
-        <br/>
-        <sub>Google Cloud Platform Configuration</sub>
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <a href="../Documentation/Images/cloud_setup.png" target="_blank">
+    <img src="../Documentation/Images/cloud_setup.png" width="260" alt="Cloud Setup"/>
+  </a>
+  <br/>
+  <b>Cloud Environment</b><br/>
+  <sub>Google Cloud Infrastructure for Scanners</sub>
+</p>
 
 ---
 
 <div align="center">
 
-  🔗 **Additional Visual References**
-  <br/>
-  <a href="../Documentation/Architecture/architecture_diagram_v9.png" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Architecture%20Diagram-00E6E6?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Architecture Diagram"/>
-  </a>
-
-  <a href="../Documentation/Reports/final_remediation_report.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/Download%20Final%20Report-blueviolet?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Final Report"/>
-  </a>
+[![Architecture Diagram](https://img.shields.io/badge/View%20Architecture%20Diagram-00E6E6?style=for-the-badge&logo=google-cloud&logoColor=white)](../Documentation/Architecture/architecture_diagram_v9.png)
+[![Final Report](https://img.shields.io/badge/Download%20Final%20Report-blueviolet?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](../Documentation/Reports/final_remediation_report.pdf)
 
 </div>
 
 ---
 
-> 💡 *All screenshots are part of the IR.Team Vulnerability Assessment project hosted on Google Cloud Platform as part of the Digital Egypt Pioneers Initiative (DEPI).*
+> 💡 *All screenshots are part of the IR.Team Vulnerability Assessment project on Google Cloud (GCP) under the Digital Egypt Pioneers Initiative (DEPI).*
+
+
+---
+
+
 
 
 <img src="https://i.postimg.cc/05CK0NxW/1447-03-01-19-06-52-c01e9c1f.jpg" width="780" alt="Project Overview" style="border-radius:12px; box-shadow:0 0 15px rgba(0,200,255,0.6);"/>
