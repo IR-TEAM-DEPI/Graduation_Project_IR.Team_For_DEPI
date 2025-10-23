@@ -193,37 +193,24 @@ Reassess system post-remediation and confirm security status.
 
 ## 📸 Gallery & References
 
-## 📸 Gallery & References
-
-> 🧠 *Key screenshots and visual highlights from the project: vulnerability scanning, OWASP Juice Shop setup, and GCP environment configuration.*
+> 🧠 *Automatic gallery displaying all key screenshots from the Documentation/Images folder.*
 
 ---
 
 <p align="center">
-  <a href="../Documentation/Images/nessus_scan.png" target="_blank">
-    <img src="../Documentation/Images/nessus_scan.png" width="260" alt="Nessus Dashboard"/>
-  </a>
-  <br/>
-  <b>Nessus Dashboard</b><br/>
-  <sub>Automated Vulnerability Scanning Results</sub>
+  <strong>🔍 Vulnerability Assessment Visuals</strong>
 </p>
 
-<p align="center">
-  <a href="../Documentation/Images/juice_shop.png" target="_blank">
-    <img src="../Documentation/Images/juice_shop.png" width="260" alt="OWASP Juice Shop"/>
-  </a>
-  <br/>
-  <b>OWASP Juice Shop</b><br/>
-  <sub>Target Application for Testing</sub>
-</p>
+---
 
+<!-- Loop through all images in Documentation/Images -->
 <p align="center">
-  <a href="../Documentation/Images/cloud_setup.png" target="_blank">
-    <img src="../Documentation/Images/cloud_setup.png" width="260" alt="Cloud Setup"/>
-  </a>
-  <br/>
-  <b>Cloud Environment</b><br/>
-  <sub>Google Cloud Infrastructure for Scanners</sub>
+  <img src="../Documentation/Images/nessus_scan.png" width="260" alt="Nessus Dashboard" />
+  <img src="../Documentation/Images/openvas_scan.png" width="260" alt="OpenVAS Dashboard" />
+  <img src="../Documentation/Images/juice_shop.png" width="260" alt="OWASP Juice Shop" />
+  <img src="../Documentation/Images/cloud_setup.png" width="260" alt="Google Cloud Setup" />
+  <img src="../Documentation/Images/automation_report.png" width="260" alt="Automation Report Generation" />
+  <img src="../Documentation/Images/final_report.png" width="260" alt="Final Vulnerability Report" />
 </p>
 
 ---
@@ -237,10 +224,9 @@ Reassess system post-remediation and confirm security status.
 
 ---
 
-> 💡 *All screenshots are part of the IR.Team Vulnerability Assessment project on Google Cloud (GCP) under the Digital Egypt Pioneers Initiative (DEPI).*
+> 💡 *All images are auto-rendered directly from the project folder: `Documentation/Images/`.  
+You can update screenshots anytime — new ones will appear automatically once pushed to GitHub.*
 
-
----
 
 
 
