@@ -170,10 +170,13 @@ Reassess system post-remediation and confirm security status.
 ## 🧠 Architecture Diagram
 
 <div align="center">
-<img src="https://i.postimg.cc/dQZKQqs3/Chat-GPT-Image-Oct-23-2025-04-24-59-AM.png" width="1000" alt="Architecture Diagram" style="border-radius:15px; box-shadow:0 0 20px rgba(0,200,255,0.6);"/>
+  <img src="https://i.postimg.cc/dQZKQqs3/Chat-GPT-Image-Oct-23-2025-04-24-59-AM.png"
+       alt="Architecture Diagram"
+       style="max-width:100%; height:auto; border-radius:15px; box-shadow:0 0 25px rgba(0,200,255,0.6);"/>
 </div>
 
 > 🔹 *The architecture shows the relationship between Cloud Environment, Nessus Scanner, OWASP Juice Shop target, and the Analyst Workflow.*
+
 
 ---
 
