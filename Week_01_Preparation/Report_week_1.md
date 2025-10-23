@@ -194,8 +194,10 @@ Now your external IP can access each service directly, e.g.:
 
 ```bash
 cd /opt/DEPI_Project/tools/nessus
-sudo apt install -y curl
-dpkg -i Nessus.deb
+curl --request GET \
+  --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.10.0-ubuntu1604_amd64.deb' \
+  --output 'Nessus-10.10.0-ubuntu1604_amd64.deb'
+dpkg -i Nessus-10.10.0-ubuntu1604_amd64.deb
 sudo systemctl enable nessusd && sudo systemctl start nessusd
 ```
 
@@ -212,8 +214,8 @@ sudo systemctl enable gvm && sudo systemctl start gvm
 
 ```bash
 cd /opt/DEPI_Project/tools/wazuh
-curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
-sudo bash wazuh-install.sh -a
+curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+
 ```
 
 ### OWASP Juice Shop
