@@ -167,22 +167,20 @@ Reassess system post-remediation and confirm security status.
 
 ---
 
+
 ## 🧠 Architecture Diagram
 
-<div align="center">
+<div align="center" style="max-width:100%;">
   <a href="https://i.postimg.cc/dQZKQqs3/Chat-GPT-Image-Oct-23-2025-04-24-59-AM.png" target="_blank">
     <img src="https://i.postimg.cc/dQZKQqs3/Chat-GPT-Image-Oct-23-2025-04-24-59-AM.png"
          alt="Architecture Diagram"
-         width="700"
-         style="border-radius:15px; box-shadow:0 0 25px rgba(0,200,255,0.6);"/>
+         style="width:100%; height:auto; border-radius:15px; box-shadow:0 0 25px rgba(0,200,255,0.6);" />
   </a>
   <br/>
-  <sub>🖱️ Click to view full-size architecture</sub>
+  <sub>🖱️ Click the image to view in full resolution</sub>
 </div>
 
-
-
-> 🔹 *The architecture shows the relationship between Cloud Environment, Nessus Scanner, OWASP Juice Shop target, and the Analyst Workflow.*
+> 🔹 *The architecture visualizes the full GCP-based environment with Nessus, OpenVAS, OWASP Juice Shop, and Automation Server.*
 
 
 ---
