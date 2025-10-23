@@ -192,7 +192,6 @@ Reassess system post-remediation and confirm security status.
 ---
 
 ## 📸 Gallery & References
-## 📸 Gallery & References
 
 > 🧠 *Automatic gallery displaying all screenshots and visuals from the vulnerability assessment project.*
 
