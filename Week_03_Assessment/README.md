@@ -41,10 +41,6 @@ During this phase, we:
 | ⚙️ **Assign Responsibilities** | Map fixes to owners, timelines, and validation tasks |
 | 🧾 **Document Actions** | Build the official remediation and tracking report |
 
----
-
-## ⚙️ Folder Structure
-
 
 ---
 
