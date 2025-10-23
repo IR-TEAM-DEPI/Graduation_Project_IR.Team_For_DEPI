@@ -192,8 +192,9 @@ Reassess system post-remediation and confirm security status.
 ---
 
 ## 📸 Gallery & References
+## 📸 Gallery & References
 
-> 🧠 *Automatic gallery displaying all key screenshots from the Documentation/Images folder.*
+> 🧠 *Automatic gallery displaying all screenshots and visuals from the vulnerability assessment project.*
 
 ---
 
@@ -203,14 +204,26 @@ Reassess system post-remediation and confirm security status.
 
 ---
 
-<!-- Loop through all images in Documentation/Images -->
 <p align="center">
-  <img src="../Documentation/Images/nessus_scan.png" width="260" alt="Nessus Dashboard" />
-  <img src="../Documentation/Images/openvas_scan.png" width="260" alt="OpenVAS Dashboard" />
-  <img src="../Documentation/Images/juice_shop.png" width="260" alt="OWASP Juice Shop" />
-  <img src="../Documentation/Images/cloud_setup.png" width="260" alt="Google Cloud Setup" />
-  <img src="../Documentation/Images/automation_report.png" width="260" alt="Automation Report Generation" />
-  <img src="../Documentation/Images/final_report.png" width="260" alt="Final Vulnerability Report" />
+  <a href="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/nessus_scan.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/nessus_scan.png" width="250" alt="Nessus Dashboard"/>
+  </a>
+  <a href="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/openvas_scan.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/openvas_scan.png" width="250" alt="OpenVAS Dashboard"/>
+  </a>
+  <a href="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/juice_shop.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/juice_shop.png" width="250" alt="OWASP Juice Shop"/>
+  </a>
+  <br/>
+  <a href="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/cloud_setup.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/cloud_setup.png" width="250" alt="Cloud Setup"/>
+  </a>
+  <a href="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/automation_report.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/automation_report.png" width="250" alt="Automation Report"/>
+  </a>
+  <a href="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/final_report.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/IR-TEAM-DEPI/Graduation_Project_IR.Team_For_DEPI/main/Documentation/Images/final_report.png" width="250" alt="Final Report"/>
+  </a>
 </p>
 
 ---
@@ -224,8 +237,8 @@ Reassess system post-remediation and confirm security status.
 
 ---
 
-> 💡 *All images are auto-rendered directly from the project folder: `Documentation/Images/`.  
-You can update screenshots anytime — new ones will appear automatically once pushed to GitHub.*
+> 💡 *All screenshots are stored under `/Documentation/Images/` and automatically loaded from GitHub using direct raw URLs.*
+
 
 
 
