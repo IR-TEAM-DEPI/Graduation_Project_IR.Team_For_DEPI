@@ -221,12 +221,14 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 ### OWASP Juice Shop
 
 ```bash
-cd /opt/DEPI_Project/tools/juice-shop
-sudo apt install -y nodejs npm git
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
 git clone https://github.com/juice-shop/juice-shop.git
 cd juice-shop
 npm install
+export HOST=0.0.0.0 #--> IP Server
 npm start
+
 ```
 
 ---
