@@ -193,12 +193,17 @@ Now your external IP can access each service directly, e.g.:
 ### Nessus Essentials
 
 ```bash
+#---> Download and run the Nussus installation assistant:
 cd /opt/DEPI_Project/tools/nessus
 curl --request GET \
   --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.10.0-ubuntu1604_amd64.deb' \
   --output 'Nessus-10.10.0-ubuntu1604_amd64.deb'
+#---> Run Nussus :
 dpkg -i Nessus-10.10.0-ubuntu1604_amd64.deb
+#---> Run Nussus Service :
 sudo systemctl enable nessusd && sudo systemctl start nessusd
+#---> To Access Server
+https://<External-IP>:8834
 ```
 
 ### OpenVAS (GVM)
@@ -208,13 +213,20 @@ sudo apt install -y openvas
 gvm-setup
 gvm-check-setup
 sudo systemctl enable gvm && sudo systemctl start gvm
+#---> To Access Server:
+https://<External-IP>:9392
 ```
 
 ### Wazuh SIEM
 
 ```bash
-cd /opt/DEPI_Project/tools/wazuh
+#---> Download and run the Wazuh installation assistant:
 curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+
+#---> wazuh-passwords.txt:
+sudo tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt
+#---> To Access Server:
+https://<External-IP>:55000
 
 ```
 
@@ -226,8 +238,10 @@ sudo apt install -y nodejs
 git clone https://github.com/juice-shop/juice-shop.git
 cd juice-shop
 npm install
-export HOST=0.0.0.0 #--> IP Server
+export HOST=0.0.0.0 #---> IP Server
 npm start
+
+http://< IP Server >:3000  #---> To Access Server
 
 ```
 
