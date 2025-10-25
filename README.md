@@ -184,13 +184,13 @@ Reassess system post-remediation and confirm security status.
 
 | Avatar | Name | Role |
 |:--------|:------|:------|
-| 🟦 **AA** | AbdulRhman AbdulGhaffar | 🧠 Team Leader / Incident Response |
-| 🟩 **YG** | Yassa Gerges | Security Analyst |
-| 🟦 **AL** | Ahmed Leithy | Vulnerability Engineer |
-| 🟩 **YM** | Yehia Mahmoud | Network Specialist |
+| 🟦 **AA** | AbdulRhman AbdulGhaffar | Incident Response Analyst |
+| 🟩 **YG** | Yassa Gerges | Incident Response Analyst |
+| 🟦 **AL** | Ahmed Leithy | Incident Response Analyst |
+| 🟩 **YM** | Yehia Mahmoud | Incident Response Analyst |
 | 🟦 **GA** | George Amir | Incident Response Analyst |
-| 🟩 **FM** | Fady Magdy | Documentation Specialist |
-| 🟦 **AM** | Ali Mohamed | Cloud Administrator |
+| 🟩 **FM** | Fady Magdy | Incident Response Analyst |
+| 🟦 **AM** | Ali Mohamed | Incident Response Analyst |
 
 ---
 
