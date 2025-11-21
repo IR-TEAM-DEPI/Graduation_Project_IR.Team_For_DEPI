@@ -1,343 +1,210 @@
-# 🛡️ OpenVAS / GVM Vulnerability Scanning — Technical Documentation (Ch. 2 & 3)
+# 🛡️ Cybersecurity Vulnerability Assessment Toolkit — README (General Use)
 
-> **Environment:** Kali Linux / Ubuntu-based Systems  
-> **Objective:** Perform vulnerability scanning, analyze results, store data, and understand OpenVAS (GVM) architecture.
-
----
-
-## 📘 Summary
-
-This README provides a **fully structured, academic-style technical documentation** for OpenVAS/GVM based on *Chapters 2 & 3 from the provided PDF*.  
-The document mirrors the same professional style and clarity as the DEPI project README you shared — including icons, formatting, structure, and step-by-step walkthroughs.
-
-It covers:
-- Initiating vulnerability scans  
-- Analyzing scan results  
-- Data collection & storage mechanisms  
-- Security, lifecycle, and academic insights  
+> **Purpose:** Unified documentation for using industry‑standard vulnerability scanning tools such as **OpenVAS**, **Nessus**, and similar solutions.
+>
+> **Format:** Clean Canva‑friendly layout — ideal for project reports, presentations, and documentation.
 
 ---
 
-# ⚙️ 2.1 — Initiate Vulnerability Scans
+# 📘 Overview
 
-## 🔧 Step 1 — Prepare the Environment
+Modern cybersecurity assessments rely on automated scanners to identify risks, misconfigurations, and exploitable vulnerabilities. This document provides a **general, reusable, professional template** for:
 
-Before scanning:
-- Use a **dedicated VM** or isolated lab network.
-- Ensure **explicit authorization** for all scanned systems.
-- Prefer vulnerable practice targets (e.g., *Metasploitable*).
+* Setting up scanners
+* Running vulnerability scans
+* Analyzing results
+* Documenting findings
+* Maintaining security workflows
+
+Compatible with:
+
+* **OpenVAS / GVM**
+* **Nessus Essentials / Professional**
+* **Qualys / Nexpose / Other similar scanners**
 
 ---
 
-## 🟩 Step 2 — Install & Initialize OpenVAS/GVM
+# ⚙️ 1. Environment Preparation
+
+Before starting any vulnerability assessment, ensure:
+
+* You are operating in a **legal and authorized environment**.
+* A **dedicated VM or isolated lab** is prepared.
+* Internet access is available for downloading feeds.
+* Required ports are allowed through the firewall.
+
+Recommended OS:
+
+* **Ubuntu 22.04 / 24.04**
+* **Kali Linux**
+* **Debian-based systems**
+
+---
+
+# 🟩 2. Installing Common Vulnerability Scanners
+
+## ✔️ OpenVAS / GVM (Greenbone)
 
 ```bash
 sudo apt update
 sudo apt install openvas -y
 sudo gvm-setup
+sudo gvm-check-setup
 ```
 
-This initializes:
-- Vulnerability feeds  
-- GVM database  
-- Greenbone services  
+Access the dashboard:
 
----
-
-## 🟦 Step 3 — Start GVM Services
-
-Check and enable services:
-
-```bash
-sudo systemctl start gvm
-sudo systemctl enable gvm
-```
-
-Access Web UI:
 ```
 https://<your-ip>:9392
 ```
 
 ---
 
-## 🎯 Step 4 — Create & Define Scan Targets
+## ✔️ Nessus (Essentials / Pro)
 
-Each target requires:
-- **Target name**
-- **Host IP(s)**
-- **Port list** (default or custom)
+```bash
+cd /tmp
+curl --request GET \
+  --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-latest.deb' \
+  --output 'nessus.deb'
+
+sudo dpkg -i nessus.deb
+sudo systemctl enable nessusd --now
+```
+
+Access the dashboard:
+
+```
+https://<your-ip>:8834
+```
 
 ---
 
-## 🧰 Step 5 — Choose Scan Configuration
+# 🎯 3. Creating & Running Scans
+
+Regardless of the tool used, the workflow is similar.
+
+## 🔧 Step 1 — Define Target
+
+Specify:
+
+* IP address range
+* Hostnames
+* Port lists (default or custom)
+
+## 🧰 Step 2 — Choose Scan Type
 
 Common profiles:
-- Full & Fast  
-- Full & Deep  
-- Discovery scan  
-- Authenticated scan  
 
-Choose based on depth vs. time.
+* **Discovery Scan**
+* **Full Scan**
+* **Authenticated Scan**
+* **Web Application Scan**
 
----
+## ▶️ Step 3 — Start Scan
 
-## 📅 Step 6 — Create & Schedule Scan Tasks
+Monitor:
 
-Bind:
-1. Target  
-2. Scan configuration  
-
-Optionally set automatic scheduling.
+* Scan duration
+* Host reachability
+* Service detection
+* Possible errors
 
 ---
 
-## ▶️ Step 7 — Run Scan & Monitor Progress
+# 📊 4. Understanding Scan Results
 
-- Larger scans = more time  
-- Watch for unreachable hosts  
-- Review errors and communication issues  
+All scanners organize vulnerabilities using **CVSS scoring**:
+
+| Severity    | Score    | Meaning                           |
+| ----------- | -------- | --------------------------------- |
+| 🔥 Critical | 9.0–10.0 | High-impact, full compromise risk |
+| ⛔ High      | 7.0–8.9  | Dangerous weaknesses              |
+| ⚠️ Medium   | 4.0–6.9  | Moderate risks                    |
+| ℹ️ Low      | 0.1–3.9  | Minor exposure                    |
+| 📘 Info     | 0.0      | Non-vulnerabilities               |
+
+Each finding includes:
+
+* Vulnerability name
+* Description
+* Affected service & version
+* CVE reference
+* Exploitation impact
+* Recommended mitigation
 
 ---
 
-## 📑 Step 8 — Review & Interpret Results
+# 📝 5. Reporting & Documentation
 
-Key focus areas:
-- Severity (CVSS score)  
-- Service name & version  
-- Vulnerable ports  
-- CVE references  
-- False positives  
+For each scan, document:
 
----
-
-## 📤 Step 9 — Export Documented Findings
+* Scope & environment
+* Scanner used (OpenVAS/Nessus)
+* Methodology
+* Key findings
+* Screenshots (for Canva)
+* Final remediation plan
 
 Export formats:
-- PDF  
-- HTML  
-- XML  
-- CSV  
 
-Include in report:
-- Environment & scope  
-- Findings summary  
-- Mitigation plan  
+* PDF
+* HTML
+* CSV
+* Markdown (recommended for Canva)
 
 ---
 
-## 🔄 Step 10 — Mitigation & Re-scan
+# 🔒 6. Security Best Practices
 
-Apply:
-- Patching  
-- Hardening  
-- Config fixes  
-
-Then re-run scan to confirm remediation.
-
----
-
-## ⚠️ Step 11 — Ethics & Permissions
-
-Unauthorized scanning = **illegal**.  
-Always operate inside controlled or permitted environments.
+* Never scan unauthorized networks.
+* Always update scanner feeds.
+* Use isolated environments.
+* Re-scan after applying patches.
+* Maintain logs and documentation.
 
 ---
 
-# 📊 2.2 — Analyze Scan Results
+# 🔁 7. Continuous Improvement
 
-## 🧩 Step 1 — Understand the Report Structure
+A strong vulnerability management cycle includes:
 
-The report contains:
-- Host summary  
-- Vulnerability list  
-- Severity breakdown  
-- Detailed analysis section  
-
----
-
-## 🎚 Step 2 — Severity Classification (CVSS)
-
-| Level     | Score      | Description |
-|----------|------------|-------------|
-| 🔥 Critical | 9.0–10.0 | Full compromise |
-| ⛔ High    | 7.0–8.9   | Serious exposure |
-| ⚠️ Medium  | 4.0–6.9   | Moderate risk |
-| ℹ️ Low     | 0.1–3.9   | Minor issue |
-| 📘 Info    | 0.0       | Not a vulnerability |
+1. **Discovery** (scanning)
+2. **Analysis** (risk evaluation)
+3. **Remediation** (patching/hardening)
+4. **Re‑assessment** (verification)
+5. **Documentation** (reports)
 
 ---
 
-## 🔍 Step 3 — Interpreting Each Vulnerability
+# 📦 8. Files & Project Structure (Optional)
 
-Each entry includes:
-- Plugin/Title  
-- Description  
-- Affected service  
-- Attack impact  
-- Remediation steps  
-- CVE references  
+Use this structure for Canva‑ready documentation:
 
----
-
-## ✔️ Step 4 — Validate Findings
-
-Avoid false positives:
-- Confirm running services  
-- Use supporting tools  
-- Check service banners  
+```
+project/
+├── images/
+├── reports/
+├── scans/
+├── notes/
+└── README.md
+```
 
 ---
 
-## 📌 Step 5 — Prioritize Remediation
+# ✅ Final Notes
 
-Based on:
-1. Severity  
-2. Exploitability  
-3. Exposure  
-4. Business impact  
+You can reuse this README for:
 
----
+* Cybersecurity labs
+* University projects
+* Training content
+* Team documentation
+* Canva presentations & reports
 
-## 📝 Step 6 — Summarize in Academic Reports
+Let me know if you want:
 
-Include:
-- Scan scope  
-- Vulnerability count by severity  
-- Critical issues and their risk impact  
-- Recommendations  
-- Follow-up plan  
-
----
-
-## 🧭 Step 7 — Draw Conclusions
-
-Discuss:
-- Security posture  
-- Pattern of weaknesses  
-- Tool effectiveness  
-- Lessons learned  
-
----
-
-# 🗄️ 2.3 — Data Collection & Storage
-
-## 🏗️ Step 1 — Overview
-
-OpenVAS (GVM) collects:
-- Host data  
-- Service details  
-- Detected vulnerabilities  
-- Metadata (time, configs, etc.)
-
----
-
-## 🌐 Step 2 — Data Collection Phases
-
-### a) Network Discovery
-Collects:
-- IPs  
-- Hostnames  
-- OS details  
-- Active ports/services  
-
----
-
-### b) Service Enumeration
-Identifies:
-- Web stack details  
-- Database versions  
-- Authentication mechanisms  
-
----
-
-### c) Vulnerability Detection
-Using **NVT scripts**, OpenVAS gathers:
-- CVEs  
-- CPE info  
-- CVSS scoring  
-- Detection logic  
-
----
-
-### d) Scan Metadata
-Includes:
-- Scanner version  
-- Latency  
-- Timestamp  
-- Profile used  
-
----
-
-# 🏛️ Data Storage Architecture
-
-## 🗃️ GVMD (PostgreSQL Database)
-
-Stores:
-- Targets  
-- Scan tasks  
-- Results  
-- User data  
-- Historical reports  
-
----
-
-## 📁 NVT Feed Storage
-
-NASL scripts include:
-- Detection logic  
-- CVE/CPE references  
-- Rules and signatures  
-
-Feeds update automatically.
-
----
-
-## 📄 Report Storage
-
-Formats:
-- PDF  
-- HTML  
-- XML  
-- CSV  
-
-Each includes:
-- Host summary  
-- Severity groups  
-- Recommended fixes  
-
----
-
-# 🔐 Data Integrity & Security
-
-OpenVAS secures data via:
-- User access control  
-- TLS/SSL encrypted communication  
-- Activity logs  
-- Digitally signed feeds  
-
----
-
-# 🔁 Data Lifecycle
-
-1. **Acquisition**  
-2. **Storage**  
-3. **Analysis**  
-4. **Reporting**  
-5. **Archival / Deletion**  
-
----
-
-# 🎓 Academic Application
-
-In your project results, explain:
-- How OpenVAS collects & stores data  
-- Role of GVMD in data management  
-- Value of structured vulnerability data  
-- How findings support remediation strategy  
-
----
-
-# ✅ Documentation Complete
-
-Converted from: **Chapter 2&3 PDF**  
-Formatted in the same style as your DEPI README.  
+* Custom colors & themes
+* Icons set for Canva
+* Automatic PDF export
+* Multi‑tool comparison section
