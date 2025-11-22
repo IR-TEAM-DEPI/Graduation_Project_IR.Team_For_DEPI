@@ -1,4 +1,4 @@
-<div style="background:#05070d;padding:22px;border-radius:14px;border:2px solid #0aff9d;box-shadow:0 0 18px #0aff9d66;">
+ <div style="background:#05070d;padding:22px;border-radius:14px;border:2px solid #0aff9d;box-shadow:0 0 18px #0aff9d66;">
 <h1 style="color:#0aff9d;margin:0;">🛡️ Cybersecurity Vulnerability Assessment Toolkit — README (General Use)</h1>
 </div>
 
